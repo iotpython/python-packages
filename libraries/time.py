@@ -98,4 +98,5 @@ while 1:
     print_segment (m2) #Print h1 on segment
     time.sleep(delay_time)
     GPIO.output(24, 0) #Turn off Digit One
-    #time.sleep(1)
+    #time.sleep(1)
+
