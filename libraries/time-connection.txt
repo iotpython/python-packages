@@ -1,0 +1,13 @@
+Pin 12 = Digit 1
+Pin 9 = Digit 2
+Pin 8 = Digit 3
+Pin 6 = Digit 4
+
+Pin 11 = seg a
+Pin 7 = seg b
+Pin 4 = seg c
+Pin 2 = seg d
+Pin 1 = seg e
+Pin 10 = seg f
+Pin 5 = seg g
+Pin 3 = seg dp
