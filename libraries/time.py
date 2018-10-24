@@ -77,26 +77,25 @@ while 1:
     m2 = minute % 10
     print (h1,h2,m1,m2)
 
-    delay_time = 0.001 #delay to create virtual effect
+    delay_time = 0.001
 
 
-    GPIO.output(7, 1) #Turn on Digit One
-    print_segment (h1) #Print h1 on segment
+    GPIO.output(7, 1)
+    print_segment (h1)
     time.sleep(delay_time)
-    GPIO.output(7, 0) #Turn off Digit One
-    GPIO.output(8, 1) #Turn on Digit One
-    print_segment (h2) #Print h1 on segment
-    GPIO.output(10, 1) #Display point On
+    GPIO.output(7, 0)
+    GPIO.output(8, 1)
+    print_segment (h2)
+    GPIO.output(10, 1) 
     time.sleep(delay_time)
-    GPIO.output(10, 0) #Display point Off
-    GPIO.output(8, 0) #Turn off Digit One
-    GPIO.output(25, 1) #Turn on Digit One
-    print_segment (m1) #Print h1 on segment
+    GPIO.output(10, 0)
+    GPIO.output(8, 0) 
+    GPIO.output(25, 1)
+    print_segment (m1)
     time.sleep(delay_time)
-    GPIO.output(25, 0) #Turn off Digit One
-    GPIO.output(24, 1) #Turn on Digit One
-    print_segment (m2) #Print h1 on segment
+    GPIO.output(25, 0)
+    GPIO.output(24, 1)
+    print_segment (m2)
     time.sleep(delay_time)
-    GPIO.output(24, 0) #Turn off Digit One
-    #time.sleep(1)
+    GPIO.output(24, 0)
 
